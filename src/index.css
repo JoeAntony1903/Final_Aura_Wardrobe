@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --theme-accent: #d4af37;
+  --theme-accent-rgb: 212, 175, 55;
+  --theme-accent-text: #0a090d;
+  --theme-accent-hover: #e5be46;
+}
+
+/* Dynamic Theme Accent Utilities */
+.theme-btn-primary {
+  background-color: var(--theme-accent) !important;
+  color: var(--theme-accent-text) !important;
+  transition: all 0.2s ease;
+}
+
+.theme-btn-primary:hover {
+  background-color: var(--theme-accent-hover) !important;
+  box-shadow: 0 10px 25px -5px rgba(var(--theme-accent-rgb), 0.4);
+}
+
+.theme-accent-text {
+  color: var(--theme-accent) !important;
+}
+
+.theme-accent-border {
+  border-color: var(--theme-accent) !important;
+}
+
+.theme-accent-badge {
+  background-color: rgba(var(--theme-accent-rgb), 0.15) !important;
+  border-color: rgba(var(--theme-accent-rgb), 0.35) !important;
+  color: var(--theme-accent) !important;
+}
+
+.theme-accent-glow {
+  box-shadow: 0 0 25px rgba(var(--theme-accent-rgb), 0.25);
+}
+
+.theme-accent-ring {
+  outline-color: var(--theme-accent) !important;
+  --tw-ring-color: var(--theme-accent) !important;
+}

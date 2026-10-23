@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix AuraWardrobe - AI Digital Wardrobe",
+  "description": "AI-powered digital wardrobe with closet layout, outfit randomizer, background removal preview, laundry tracker, and event scheduler.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
